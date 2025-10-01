@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		45260B132E8BBAC4007F7EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45260AFA2E8BBAC3007F7EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45260B012E8BBAC3007F7EFD;
+			remoteInfo = "dooropener-simple";
+		};
+		45260B1D2E8BBAC4007F7EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45260AFA2E8BBAC3007F7EFD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45260B012E8BBAC3007F7EFD;
+			remoteInfo = "dooropener-simple";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45260B022E8BBAC3007F7EFD /* dooropener-simple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dooropener-simple.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45260B122E8BBAC4007F7EFD /* dooropener-simpleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dooropener-simpleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45260B1C2E8BBAC4007F7EFD /* dooropener-simpleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "dooropener-simpleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		45260B302E8BBB24007F7EFD /* Exceptions for "dooropener-simple" folder in "dooropener-simple" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 45260B012E8BBAC3007F7EFD /* dooropener-simple */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		45260B042E8BBAC3007F7EFD /* dooropener-simple */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				45260B302E8BBB24007F7EFD /* Exceptions for "dooropener-simple" folder in "dooropener-simple" target */,
+			);
+			path = "dooropener-simple";
+			sourceTree = "<group>";
+		};
+		45260B152E8BBAC4007F7EFD /* dooropener-simpleTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "dooropener-simpleTests";
+			sourceTree = "<group>";
+		};
+		45260B1F2E8BBAC4007F7EFD /* dooropener-simpleUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "dooropener-simpleUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45260AFF2E8BBAC3007F7EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45260B0F2E8BBAC4007F7EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45260B192E8BBAC4007F7EFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45260AF92E8BBAC3007F7EFD = {
+			isa = PBXGroup;
+			children = (
+				45260B042E8BBAC3007F7EFD /* dooropener-simple */,
+				45260B152E8BBAC4007F7EFD /* dooropener-simpleTests */,
+				45260B1F2E8BBAC4007F7EFD /* dooropener-simpleUITests */,
+				45260B032E8BBAC3007F7EFD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45260B032E8BBAC3007F7EFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45260B022E8BBAC3007F7EFD /* dooropener-simple.app */,
+				45260B122E8BBAC4007F7EFD /* dooropener-simpleTests.xctest */,
+				45260B1C2E8BBAC4007F7EFD /* dooropener-simpleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45260B012E8BBAC3007F7EFD /* dooropener-simple */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45260B262E8BBAC4007F7EFD /* Build configuration list for PBXNativeTarget "dooropener-simple" */;
+			buildPhases = (
+				45260AFE2E8BBAC3007F7EFD /* Sources */,
+				45260AFF2E8BBAC3007F7EFD /* Frameworks */,
+				45260B002E8BBAC3007F7EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				45260B042E8BBAC3007F7EFD /* dooropener-simple */,
+			);
+			name = "dooropener-simple";
+			packageProductDependencies = (
+			);
+			productName = "dooropener-simple";
+			productReference = 45260B022E8BBAC3007F7EFD /* dooropener-simple.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45260B112E8BBAC4007F7EFD /* dooropener-simpleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45260B292E8BBAC4007F7EFD /* Build configuration list for PBXNativeTarget "dooropener-simpleTests" */;
+			buildPhases = (
+				45260B0E2E8BBAC4007F7EFD /* Sources */,
+				45260B0F2E8BBAC4007F7EFD /* Frameworks */,
+				45260B102E8BBAC4007F7EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45260B142E8BBAC4007F7EFD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				45260B152E8BBAC4007F7EFD /* dooropener-simpleTests */,
+			);
+			name = "dooropener-simpleTests";
+			packageProductDependencies = (
+			);
+			productName = "dooropener-simpleTests";
+			productReference = 45260B122E8BBAC4007F7EFD /* dooropener-simpleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45260B1B2E8BBAC4007F7EFD /* dooropener-simpleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45260B2C2E8BBAC4007F7EFD /* Build configuration list for PBXNativeTarget "dooropener-simpleUITests" */;
+			buildPhases = (
+				45260B182E8BBAC4007F7EFD /* Sources */,
+				45260B192E8BBAC4007F7EFD /* Frameworks */,
+				45260B1A2E8BBAC4007F7EFD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45260B1E2E8BBAC4007F7EFD /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				45260B1F2E8BBAC4007F7EFD /* dooropener-simpleUITests */,
+			);
+			name = "dooropener-simpleUITests";
+			packageProductDependencies = (
+			);
+			productName = "dooropener-simpleUITests";
+			productReference = 45260B1C2E8BBAC4007F7EFD /* dooropener-simpleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45260AFA2E8BBAC3007F7EFD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					45260B012E8BBAC3007F7EFD = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					45260B112E8BBAC4007F7EFD = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 45260B012E8BBAC3007F7EFD;
+					};
+					45260B1B2E8BBAC4007F7EFD = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 45260B012E8BBAC3007F7EFD;
+					};
+				};
+			};
+			buildConfigurationList = 45260AFD2E8BBAC3007F7EFD /* Build configuration list for PBXProject "dooropener-simple" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45260AF92E8BBAC3007F7EFD;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 45260B032E8BBAC3007F7EFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45260B012E8BBAC3007F7EFD /* dooropener-simple */,
+				45260B112E8BBAC4007F7EFD /* dooropener-simpleTests */,
+				45260B1B2E8BBAC4007F7EFD /* dooropener-simpleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45260B002E8BBAC3007F7EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45260B102E8BBAC4007F7EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45260B1A2E8BBAC4007F7EFD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45260AFE2E8BBAC3007F7EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45260B0E2E8BBAC4007F7EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45260B182E8BBAC4007F7EFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45260B142E8BBAC4007F7EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45260B012E8BBAC3007F7EFD /* dooropener-simple */;
+			targetProxy = 45260B132E8BBAC4007F7EFD /* PBXContainerItemProxy */;
+		};
+		45260B1E2E8BBAC4007F7EFD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45260B012E8BBAC3007F7EFD /* dooropener-simple */;
+			targetProxy = 45260B1D2E8BBAC4007F7EFD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		45260B242E8BBAC4007F7EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		45260B252E8BBAC4007F7EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45260B272E8BBAC4007F7EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dooropener-simple/Preview Content\"";
+				DEVELOPMENT_TEAM = C724YFQ222;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dooropener-simple/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Auto Door Opener";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.dooropener-simple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45260B282E8BBAC4007F7EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"dooropener-simple/Preview Content\"";
+				DEVELOPMENT_TEAM = C724YFQ222;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dooropener-simple/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Auto Door Opener";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.dooropener-simple";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		45260B2A2E8BBAC4007F7EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C724YFQ222;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.dooropener-simpleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dooropener-simple.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dooropener-simple";
+			};
+			name = Debug;
+		};
+		45260B2B2E8BBAC4007F7EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C724YFQ222;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.dooropener-simpleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dooropener-simple.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dooropener-simple";
+			};
+			name = Release;
+		};
+		45260B2D2E8BBAC4007F7EFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C724YFQ222;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.dooropener-simpleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dooropener-simple";
+			};
+			name = Debug;
+		};
+		45260B2E2E8BBAC4007F7EFD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C724YFQ222;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "personal.dooropener-simpleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "dooropener-simple";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45260AFD2E8BBAC3007F7EFD /* Build configuration list for PBXProject "dooropener-simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45260B242E8BBAC4007F7EFD /* Debug */,
+				45260B252E8BBAC4007F7EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45260B262E8BBAC4007F7EFD /* Build configuration list for PBXNativeTarget "dooropener-simple" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45260B272E8BBAC4007F7EFD /* Debug */,
+				45260B282E8BBAC4007F7EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45260B292E8BBAC4007F7EFD /* Build configuration list for PBXNativeTarget "dooropener-simpleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45260B2A2E8BBAC4007F7EFD /* Debug */,
+				45260B2B2E8BBAC4007F7EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45260B2C2E8BBAC4007F7EFD /* Build configuration list for PBXNativeTarget "dooropener-simpleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45260B2D2E8BBAC4007F7EFD /* Debug */,
+				45260B2E2E8BBAC4007F7EFD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45260AFA2E8BBAC3007F7EFD /* Project object */;
+}
