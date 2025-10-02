@@ -1,5 +1,5 @@
 # Door opener for dorms via ESP32 Bluetooth and iOS app
-Open your dorm door (or any door) with just your phone! No more locking yourself out
+Open your dorm door (or any door) with just your phone! No more locking yourself out!
 
 This DIY project is pretty simple to build yourself and is relatively cheap (other than the servo which depends on which one you get). I've also listed complete build instructions below, but if you have any questions on the process you can contact me at @garage_goblins_ on instagram.
 
@@ -8,12 +8,21 @@ Thanks to [this project](https://www.instructables.com/DoorMe-Smartphone-Control
 # Hardware instructions
 You'll need:
 - An Arduino/ESP32 capable of BLE and PWM signals (I used ESP32-WROOM)
-- A power souce for the Arduino
+- A power souce for the Arduino (I ordered an extra-long USB-C cable, make sure your power brick and cable are capable of supporting high power)
 - An iPhone for communicating to the device (no android app right now)
 - A high-torque servo
 - String/yarn
 - A pulley/winch attachment for the servo [(here's the one I designed for this project)](https://cad.onshape.com/documents/61f1872a0c06c7a3b4d6bff2/w/ee628c89c2550850fde67cd9/e/5b565efe5ca670e395e86053)
+- Double-sided tape for attaching the servo and regular tape for organizing the wires
 
+1. Print out your winch attachment and put it on the servo
+2. Connect the servo's + and - terminals to the +5V and GND on the Arduino (make sure your servo can function at 5V, if not you'll have to source power directly from the power source)
+3. Connect the signal wire on your servo to a PWM-capable pin on your Arduino
+4. Tie a piece of string on the winch and make sure it threads through the string hole (if you're using my custom part)
+5. Position the string on the outer edge of the door handle and loop it around a few times to make sure it's stable
+6. Position the servo **under the center of the door handle** to make sure the string stays in place when the servo turns
+7. Attach firmly in position using double-sided tape and use regular tape on the power source wire
+8. Enjoy
 
 # Arduino/ESP32 instructions
 2. Open the .ino file in your Arduino IDE
